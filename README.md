@@ -118,6 +118,6 @@ Enhance mobile responsiveness.
 **Vishal Katarha**
 
 - GitHub: https://github.com/VishalKatarha
-- LinkedIn: https://linkedin.com/in/vishalkatarha
+- LinkedIn: https://www.linkedin.com/in/vishal-katarha-4b8422298
 
 ⭐ If you like this project, consider giving it a star!

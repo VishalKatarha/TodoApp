@@ -83,6 +83,11 @@ useEffect(() => {
      <div className='bg-yellow-200 w-2/4 flex flex-col gap-8 rounded-lg shadow-xl text-black p-5 mt-10'>
 
      <div className='flex justify-between items-center'>
+       <img
+      src="/logo.png"
+      alt="Burnitup"
+      className="w-10 h-10 object-contain"
+      />
       <h1 className='text-2xl font-bold'>Todo App</h1>
       <button className='bg-blue-500 flex mt-2 text-white px-4 py-2 rounded-lg shadow-[0_10px_30px_rgba(0,0,0,0.4)]' onClick={handlenavigate} >Add< FaPlus className='ml-2 mt-1'/></button>
      </div>

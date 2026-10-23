@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📝 Todo App — Next.js
 
-## Getting Started
+A simple and responsive Todo App built with Next.js that allows users to manage their daily tasks with CRUD (Create, Read, Update, Delete) operations.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🏠 Home Page
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Displays the list of todos with options to edit and delete tasks.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Home Page](./screenshots/home.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ➕ Add Todo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add a new task by entering its title and description.
 
-## Deploy on Vercel
+![Add Todo](./screenshots/add-todo.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### ✏️ Update Todo
+
+Update the title and description of an existing task.
+
+![Update Todo](./screenshots/update-todo.png)
+
+
+
+### 🗑️ Delete Todo
+
+Delete unwanted tasks from the todo list.
+
+![Delete Todo](./screenshots/delete-todo.png)
+
+
+
+✨ Features
+
+➕ Create Todo — Add new tasks with a title and description.
+
+📋 Read Todos — View all saved tasks on the home page.
+
+✏️ Update Todo — Edit existing task details.
+
+🗑️ Delete Todo — Remove tasks when they are no longer needed.
+
+🔗 Dynamic Routing — Navigate to individual todo update pages using dynamic routes.
+
+⚡ API Integration — Perform CRUD operations through API endpoints.
+
+🔔 Toast Notifications — Get feedback for successful and failed operations.
+
+🎨 Clean UI — Simple interface styled with Tailwind CSS.
+
+
+
+## 🛠️ Tech Stack
+
+-Next.js — React framework
+
+-React.js — UI development
+
+-Tailwind CSS — Styling
+
+-Axios — HTTP requests
+
+-React Icons — Icons
+
+-React Hot Toast — Notifications
+
+-REST API — CRUD operations
+
+
+
+## 🔄 CRUD Operations
+
+-Operation
+
+-Description
+
+-Create
+
+-Add a new todo
+
+-Read
+
+-Fetch and display todos
+
+-Update
+
+-Edit an existing todo
+
+-Delete
+
+-Remove a todo
+
+## 🎯 Purpose
+
+This project was built to practice Next.js, React state management, dynamic routing, API integration, and CRUD functionality while creating a clean and user-friendly interface.
+
+## 🚀 Future Improvements
+
+Add task completion status.
+
+Add search and filtering.
+
+Improve form validation.
+
+Add user authentication.
+
+Enhance mobile responsiveness.
+
+## 👨‍💻 Author
+
+**Vishal Katarha**
+
+- GitHub: https://github.com/VishalKatarha
+- LinkedIn: https://linkedin.com/in/vishalkatarha
+
+⭐ If you like this project, consider giving it a star!
